@@ -1,0 +1,18 @@
+
+
+<table>
+    <th> 
+        <td>Description</td>
+        <td>Gender</td>
+        <td>Points</td>
+
+    </th>
+    {%for reward in Rewards%}
+    <tr>
+        <td>{{reward.description}}</td>
+        <td>{{reward.gender}}</td>
+        <td>{{reward.points}}</td>
+    </tr>
+    {%endfor%}
+
+</table>
