@@ -278,3 +278,6 @@ def edit_rewards(request,id):
     else:
         form=RewardRegistrationForm(instance=Reward)
         return render(request,"wallet/edit_reward.html",{"form":form})     
+
+
+        
